@@ -3,7 +3,7 @@ var glob = require('glob'),
     async = require('async'),
     path = require('path'),
     marked = require('marked'),
-    Mustache = require('mustache'),
+    handlebars = require('handlebars'),
     mkdirp = require('mkdirp'),
     fsextra = require('fs-extra'),
 
@@ -66,8 +66,8 @@ globPath(options.src, 'json', function(err, json) {
       content[i] = {};
     });
   
-    globPath(options.templates, 'mustache', function(err, templates) {
-      globPath(options.partials, 'mustache', function(err, partials) {
+    globPath(options.templates, 'html', function(err, templates) {
+      globPath(options.partials, 'html', function(err, partials) {
         fs.readFile(options.global, function(err, data) {
           var global = {},
               output = {},
@@ -97,7 +97,7 @@ globPath(options.src, 'json', function(err, json) {
           
           Object.keys(partials).forEach(function(p) {
             var name = path.basename(p);
-            renderPartials[name] = partials[p].data.toString();
+            handlebars.registerPartial(name, partials[p].data.toString());
           });
           
           Object.keys(content).forEach(function(i) {
@@ -112,8 +112,14 @@ globPath(options.src, 'json', function(err, json) {
                   console.error('Error creating output dir %s: %s', path.dirname(output), err);
                 } else {
                   try {
-                    result = Mustache.to_html(template.data.toString(), view, renderPartials);
-                    fs.writeFile(output, Mustache.to_html(template.data.toString(), view, renderPartials), function(err) {
+                    handlebars.registerHelper('path', function(context) {
+                        var relPath = path.relative(path.dirname(i), context);
+                        return relPath !== '' ? relPath : '.';
+                    });
+
+                    result = handlebars.compile(template.data.toString());
+
+                    fs.writeFile(output, result(view), function(err) {
                       if(err) {
                         console.log('Error while writing %s: %s', output, err);
                       } else {
@@ -136,7 +142,7 @@ globPath(options.src, 'json', function(err, json) {
             } else {
               async.filter(data, function(d, callback) {
                 fs.stat(path.join(options.templates, d), function(err, s) {
-                  if (err || s.isDirectory() || /\.mustache$/.test(d)) {
+                  if (err || s.isDirectory() || /\.html$/.test(d)) {
                     callback(false);
                   } else {
                     callback(true);

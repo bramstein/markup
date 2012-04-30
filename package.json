@@ -11,13 +11,11 @@
   },
   "dependencies": {
     "mkdirp": "0.3.0",
-    "minimatch": "0.1.5",
-    "marked": ">=0.1.9",
-    "findit": ">=0.1.2",
-    "highlight.js": "*",
-    "typogr": "*",
-    "hypher": "*",
-    "hyphenation.en-us": "*"
+    "marked": ">=0.2.4",
+    "fs-extra": ">=0.0.4",
+    "glob": ">=3.1.9",
+    "handlebars": ">=1.0.5beta",
+    "async": "0.1.18"
   },
   "main": "./lib/markup.js",
   "devDependencies": {}
