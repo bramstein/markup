@@ -1,0 +1,13 @@
+{
+  "site-title": "bramstein.com",
+  "menu": [
+    {
+      "title": "home",
+      "url": "."
+    },
+    {
+      "title": "writing",
+      "url": "writing"
+    }
+  ]
+}

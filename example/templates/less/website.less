@@ -1,0 +1,13 @@
+@import "reset.less";
+@import "variables.less";
+@import "grid.less";
+@import "typography.less";
+
+body {
+	margin: 0 auto;
+	width: @total-width;
+
+	> article, nav, header, footer {
+		.column(9);
+	}
+}
