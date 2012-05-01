@@ -108,7 +108,7 @@ globPath(options.src, 'json', function(err, json) {
           });
 
           Object.keys(content).forEach(function(i) {
-            var template = templates[i] || templates[path.dirname(i)],
+            var template = templates[i] || templates[path.dirname(i)] || templates[path.dirname(path.dirname(i))],
                 view = content[i].data,
                 result = null,
                 output = path.join(options.output, i + '.html');

@@ -1,0 +1,33 @@
+[submodule "src/projects/junify"]
+	path = src/projects/junify
+	url = git@github.com:bramstein/junify.git
+[submodule "src/projects/column-selector"]
+	path = src/projects/column-selector
+	url = git@github.com:bramstein/column-selector.git
+[submodule "src/projects/jlayout"]
+	path = src/projects/jlayout
+	url = git@github.com:bramstein/jlayout.git
+[submodule "src/projects/text-align"]
+	path = src/projects/text-align
+	url = git@github.com:bramstein/text-align.git
+[submodule "src/projects/calcdeps"]
+	path = src/projects/calcdeps
+	url = git@github.com:bramstein/calcdeps.js.git
+[submodule "src/projects/xsltjson"]
+	path = src/projects/xsltjson
+	url = git@github.com:bramstein/xsltjson.git
+[submodule "src/projects/bit-array"]
+	path = src/projects/bit-array
+	url = git@github.com:bramstein/bit-array.git
+[submodule "src/projects/hypher"]
+	path = src/projects/hypher
+	url = git@github.com:bramstein/hypher.git
+[submodule "src/projects/typeset"]
+	path = src/projects/typeset
+	url = git@github.com:bramstein/typeset.git
+[submodule "src/projects/text-overflow"]
+	path = src/projects/text-overflow
+	url = git@github.com:bramstein/text-overflow.git
+[submodule "src/projects/jsizes"]
+	path = src/projects/jsizes
+	url = git@github.com:bramstein/jsizes.git
