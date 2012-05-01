@@ -1,7 +1,3 @@
-date: Sat, 11 Jul 2009 18:43:50 +0100
-tags: monkeys, penguins
-
-
 # Book Review: “Object Oriented JavaScript” by Stoyan Stefanov
 
 ![](object-oriented-javascript.png)

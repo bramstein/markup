@@ -1,7 +1,3 @@
-date: Sat, 11 Jul 2009 18:43:50 +0100
-tags: monkeys, penguins
-
-
 # Code conventions
 ### Abstract
 

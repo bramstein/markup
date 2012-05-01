@@ -1,7 +1,3 @@
-date: Sat, 11 Jul 2009 18:43:50 +0100
-tags: monkeys, penguins
-
-
 # Book Review: “jQuery UI 1.6: The User Interface Library for jQuery” by Dan Wellman
 
 ![](jquery-ui.png)
