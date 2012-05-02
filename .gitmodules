@@ -31,3 +31,9 @@
 [submodule "src/projects/jsizes"]
 	path = src/projects/jsizes
 	url = git@github.com:bramstein/jsizes.git
+[submodule "src/projects/closureloader"]
+	path = src/projects/closureloader
+	url = git@github.com:bramstein/closureloader.git
+[submodule "src/projects/funcy"]
+	path = src/projects/funcy
+	url = git@github.com:bramstein/funcy.git
