@@ -8,7 +8,7 @@ All files in the `src` directory that are not markdown files are copied verbatim
 
 Template fallback works as follows. Given an input file:
 
-   some/dir/content.md
+    some/dir/content.md
 
 The following templates are tried in order:
 
