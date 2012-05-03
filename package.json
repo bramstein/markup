@@ -16,6 +16,7 @@
     "glob": ">=3.1.9",
     "handlebars": ">=1.0.5beta",
     "async": "0.1.18"
+    "watch": "0.5.1"
   },
   "main": "./lib/markup.js",
   "devDependencies": {}

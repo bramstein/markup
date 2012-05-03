@@ -1,6 +1,4 @@
-# Extracting values from JavaScript objects
-
-## Introduction
+## Extracting values from JavaScript objects
 
 The JUnify unification library allows you to extract values from JavaScript objects, for example JSON data structures. The variable syntax is however a bit cumbersome when all you want it to extract properties from objects, because it requires you to repeat the property name twice (e.g. `{title: $('title')}` .) The syntax would be simpler if we could just indicate that we'd like a property extracted, for example `{title: _}` . We will use the `visit_pattern` method from the JUnify library to implement a simple object extraction module.
 

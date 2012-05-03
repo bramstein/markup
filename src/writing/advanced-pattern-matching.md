@@ -1,6 +1,4 @@
-# Advanced Pattern Matching in JavaScript
-
-## Introduction
+## Advanced Pattern Matching in JavaScript
 
 We'll start with the pattern matcher we built in [the previous article](pattern-matching.html) . If you haven't read that yet, I would suggest you do so because it will be the foundation for this one. Recall the final factorial function:
 

@@ -1,5 +1,6 @@
-# Book Review: “Object Oriented JavaScript” by Stoyan Stefanov
+## Book Review: “Object Oriented JavaScript” by Stoyan Stefanov
 
+<aside>
 ![](object-oriented-javascript.png)
 
 <dl>
@@ -11,8 +12,7 @@
 978-1-847194-14-5
 </dd>
 </dl>
-
-## Introduction
+</aside>
 
 A few weeks ago I was asked by [Packt Publishing](http://www.packtpub.com/) to review one of their titles “ [Object Oriented JavaScript: Create scalable, reusable high-quality JavaScript applications and libraries](http://www.packtpub.com/object-oriented-javascript-applications-libraries/book) ”. As an avid reader and obsessed with all things JavaScript I couldn't say no. What follows is based on the notes I took while reading. The book starts with a good introduction to the various aspects of JavaScript, from data types and control structures in Chapter 2 to functions and objects in Chapter 3 and 4. I'm not going to say much about these introduction chapters; the writing is clear and contains plenty of examples you can follow along. Although these chapters provide a good introduction to basic JavaScript, you could find the same information in most other JavaScript books ( [JavaScript the Definitive Guide](http://oreilly.com/catalog/9780596000486/) comes to mind.)
 

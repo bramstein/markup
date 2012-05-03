@@ -3,11 +3,17 @@
 @import "grid.less";
 @import "typography.less";
 
+@total-width: 940px;
+
 body {
 	margin: 0 auto;
 	width: @total-width;
 
-	> article, nav, header, footer {
-		.column(9);
+	> nav, header, footer, hr {
+		.column(12);
+	}
+
+	> article {
+		.column(8);
 	}
 }
