@@ -1,16 +1,15 @@
 <!doctype html>
-<html>
-  {{> head}}
+<html class="home">
+  {{include "head" title=""}}
   <body>
-    {{> nav}}
+    {{include "nav"}}
     <header>
-      <h1>Front-end developer all day.<br>Designer some days.</h1>
-      <p>I'm a programmer and web developer from the Netherlands, but currently living in <a href="#">Copenhagen, Denmark</a>. I have a passion for developing usable <a href="#">programs</a>, websites, visualizations–and when I have some spare time–games.</p>
+      <h1 class="main">BRAM LAURENS STEIN</h1>
+      <p>I'm a programmer and web developer from the Netherlands. I have a passion for developing usable programs, websites, visualizations–and when I have some spare time–games.</p>
     </header>
-    <hr>
     <article>
       {{{article}}}
     </article>
-    {{> footer}}
+    {{include "footer"}}
   </body>
 </html>

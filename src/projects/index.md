@@ -1,22 +1,34 @@
-## [Closure Loader](closureloader)
+## [Treesaver](treesaver)
 
-Load code using the Closure library dependency syntax in Node.js.
+Treesaver® is an in-browser read­ing expe­ri­ence that dynam­i­cally adapts to a user’s device and screen size. Using web-stan­dard tech­nolo­gies present in HTML5, Treesaver enables inno­v­a­tive, visu­ally appeal­ing column-based page designs that don’t require any addi­tional down­loads: all you need is a modern web browser.
 
-##  [calcdeps.js](calcdeps)
+##  [Hypher](hypher)
 
-A Node.js port of Google Closure library calcdeps.py. This lets you reduce your dependencies to the Closure Compiler and Node.js packages.
+Hypher is a fast and small hyphenation engine written in JavaScript. It works in both the browser and Node.js and comes with plugins for jQuery and Ender. It comes with a collection of hyphenation dictionaries for over 30 languages.
+
+##  [Typeset: hyphenation & justification](typeset)
+
+Typeset is an implementation of the Knuth and Plass line breaking algorithm using JavaScript. The goal of this implementation is to optimally set justified text in browsers, and ultimately provide a library for various line breaking algorithms in JavaScript.
+
+##  [JavaScript Layout Algorithms](jlayout)
+
+The [jLayout JavaScript library](jlayout) provides layout algorithms for laying out components and containers. The library currently provides three layout algorithms: `border`, which lays out components in five different regions; `grid`, which lays out components in a user defined grid; and `flex-grid` which lays out components in a user defined grid with flexible column and row sizes. A [jQuery plugin](jlayout/jquery-plugin.html) to lay out (X)HTML elements is also available.
+
+##  [XSLTJSON: XML to JSON transformations](xsltjson)
+
+XSLTJSON is an XSLT 2.0 stylesheet to transform arbitrary XML to [JSON](http://json.org/). XSLTJSON supports several different JSON output formats, from a compact output format to support for the [BadgerFish convention](http://badgerfish.ning.com/), which allows round-trips between XML and JSON.
+
+##  [Calcdeps.js](calcdeps.js)
+
+A Node.js port of Google Closure library `calcdeps.py`. This lets you reduce your dependencies to the Closure Compiler and npm modules.
 
 ##  [JavaScript Bit Arrays](bit-array)
 
 This library implements bit arrays in JavaScript implementation of bit arrays. The library supports many methods to manipulate bit arrays, serialization to and from JSON and is runs in the browser, Node.js and Ender.js.
 
-##  [Hypher](hypher)
+## [Closure Loader](closureloader)
 
-Hypher is a fast and small hyphenation engine. It works in both the browser and Node.js and comes with plugins for jQuery and Ender.
-
-##  [TeX line breaking algorithm in JavaScript](typeset)
-
-This is an implementation of the Knuth and Plass line breaking algorithm using JavaScript and the HTML5 canvas element. The goal of this implementation is to optimally set justified text in the new HTML5 canvas element, and ultimately provide a library for various line breaking algorithms in JavaScript.
+Load code using the Closure library dependency syntax in Node.js. Using the loader you can import your client-side Closure Library code and run it on the server.
 
 ##  [jQuery Text Alignment plugin](text-align)
 
@@ -34,10 +46,6 @@ This jQuery plugin adds a new selector to the selector API for retrieving table 
 
 Pattern matching is a form of conditional branching which allows you to concisely match on data structure patterns and bind variables at the same time. Pattern matching is supported in some functional languages such as ML, Haskell, OCaml, and Erlang. This library implements pattern matching for the JavaScript language in an efficient and concise way.
 
-##  [jLayout: JavaScript Layout Algorithms](jlayout)
-
-The [jLayout JavaScript library](jlayout) provides layout algorithms for laying out components and containers. The library currently provides three layout algorithms: `border` , which lays out components in five different regions; `grid` , which lays out components in a user defined grid; and flex-grid which lays out components in a user defined grid with flexible column and row sizes. A [jQuery plugin](jlayout/jquery-plugin.html) to lay out (X)HTML elements is also available.
-
 ##  [JUnify: JavaScript Unification Library](junify)
 
 JUnify is a JavaScript library for performing unification on objects and arrays. Unification is an algorithm to determine the substitutions needed to make two expressions match. If the expressions contain variables, these will be bound to values in order for the match to succeed. If two expressions are not identical or the variables can not be bound, the match fails. Unification can, for example, be used to [implement pattern matching](../writing/pattern-matching.html) or an expert system.
@@ -45,12 +53,6 @@ JUnify is a JavaScript library for performing unification on objects and arrays.
 ##  [JSizes: jQuery CSS size properties plugin](jsizes)
 
 JSizes is a small plugin for the [jQuery JavaScript library](http://jquery.com/) which adds support for the CSS  `min-width`, `min-height`, `max-width`, `max-height`, `border-*-width`, `margin`, and `padding` properties. Additionally it has one method for determining whether an element is visible. Because all the size methods return numbers, it is safe to use them in calculating DOM element dimensions.
-
-##  [XSLTJSON: XML to JSON transformations](xsltjson)
-
-XSLTJSON is an XSLT 2.0 stylesheet to transform arbitrary XML to [JavaScript Object Notation](http://json.org/) (JSON). JSON is a lightweight data-interchange format based on a subset of the [JavaScript language](http://en.wikipedia.org/wiki/JavaScript), and often offered as an alternative to XML in—for example—web services. To make life easier XSLTJSON allows you to transform XML to JSON automatically.
-
-XSLTJSON supports several different JSON output formats, from a compact output format to support for the [BadgerFish convention](http://badgerfish.ning.com/), which allows round-trips between XML and JSON.
 
 ##  [Quake Menu Textures](quake)
 

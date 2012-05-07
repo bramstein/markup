@@ -1,20 +1,9 @@
-# Book Review: “jQuery UI 1.6: The User Interface Library for jQuery” by Dan Wellman
-
+## Review of "jQuery UI 1.6: The User Interface Library for jQuery" by Dan Wellman
+<figure>
 ![](jquery-ui.png)
+</figure>
 
-<dl>
-<dt>Title</dt><dd>
- [jQuery UI 1.6: The User Interface Library for jQuery](http://www.packtpub.com/user-interface-library-for-jquery/book) 
-</dd><dt>Author</dt><dd>
- [Dan Wellman](http://www.packtpub.com/author_view_profile/id/188) 
-</dd><dt>ISBN</dt><dd>
-978-1-847195-12-8
-</dd>
-</dl>
-
-## Introduction
-
-In the last few months I've been developing a new (work) project and decided to give the [jQuery UI library](http://jqueryui.com/) a try. I had been using the UI library for a couple of weeks before I started reading “ [jQuery UI 1.6: The User Interface Library for jQuery](http://www.packtpub.com/user-interface-library-for-jquery/book) ”, and I'm perhaps not the typical target audience, so keep that in mind while reading the review.
+In the last few months I've been developing a new (work) project and decided to give the [jQuery UI library](http://jqueryui.com/) a try. I had been using the UI library for a couple of weeks before I started reading ["jQuery UI 1.6: The User Interface Library for jQuery"](http://www.packtpub.com/user-interface-library-for-jquery/book), and I'm perhaps not the typical target audience, so keep that in mind while reading the review.
 
 The first thing that stood out as I started reading were the type setting conventions. I usually skip these as they are pretty much the same in most books, but somehow in this book they almost take up two pages, in what could have been four lines. Odd.
 
@@ -32,4 +21,6 @@ The next four chapters describe the behaviours in the UI library: drag and drop,
 
 The book concludes with a chapter on the visual effects that come with the UI library. I don't have much to say about this chapter, except that roughly the same information can be found on the jQuery UI website, including live examples of the effects in question. One thing I would have liked to see in this book is an overview of the design philosophy and choices of the UI library. A small chapter that explains why things are done in a certain way would have been a valuable addition to this book.
 
-I think the book's biggest problem is that it covers version 1.6 of the jQuery UI library. [jQuery UI version 1.7](http://jqueryui.com/) has since been released and is different on several points (such as [theming, available options, and methods](http://blog.jqueryui.com/2009/03/jquery-ui-17/) .) Version 1.7 has also removed the auto complete component and introduced a new [progress bar component](http://jqueryui.com/demos/progressbar/) which is not covered in this book. Furthermore, the default theme used in the book has been deprecated and is no longer available. The jQuery UI team has published an [upgrade guide from 1.6 to 1.7](http://jqueryui.com/docs/Upgrade_Guide) . It is not a bad book, but I think it would have been better off as either an online tutorial or a wiki so it has a chance to stay up to date with the development of jQuery UI. The extensive code examples also would have worked better with a website instead of a book.
+I think the book's biggest problem is that it covers version 1.6 of the jQuery UI library. [jQuery UI version 1.7](http://jqueryui.com/) has since been released and is different on several points (such as [theming, available options, and methods](http://blog.jqueryui.com/2009/03/jquery-ui-17/).) Version 1.7 has also removed the auto complete component and introduced a new [progress bar component](http://jqueryui.com/demos/progressbar/) which is not covered in this book. Furthermore, the default theme used in the book has been deprecated and is no longer available. The jQuery UI team has published an [upgrade guide from 1.6 to 1.7](http://jqueryui.com/docs/Upgrade_Guide).
+
+It is not a bad book, but I think it would have been better off as either an online tutorial or a wiki so it has a chance to stay up to date with the development of jQuery UI. The extensive code examples also would have worked better with a website instead of a book.

@@ -3,17 +3,151 @@
 @import "grid.less";
 @import "typography.less";
 
-@total-width: 940px;
+@gutter-width: @lineHeight / 2;
+@gutter-width: 2px;
+@total-width: 828px;
+@border: 6px;
+
+
+html.projects nav .projects,
+html.about nav .about,
+html.writing nav .writing {
+  border-top: 6px solid @gray70;
+}
 
 body {
-	margin: 0 auto;
-	width: @total-width;
+  margin: 0 auto;
+  width: @total-width;
 
-	> nav, header, footer, hr {
-		.column(12);
-	}
+  > hr {
+    .column(8);
+    .push(2);
+  }
 
-	> article {
-		.column(8);
-	}
+  > footer {
+    .column(12);
+    background-color: @gray70;
+    nav {
+      .column(8, 12);
+      .push(2);
+      padding: @margin 0;
+    }
+  }
+
+
+  article {
+    .column(8);
+    .push(2);
+    margin-bottom: @margin * 2;
+
+    figure {
+      float: right;
+      padding: 0 @lineHeight / 2;
+      margin: 0 0 (@lineHeight / 2) (@lineHeight / 2);
+
+      img {
+        margin: 0 auto (@lineHeight / 2) auto;
+        display: block;
+      }
+    }
+  }
+
+  > nav {
+    .column(12);
+    .row(12);
+    margin-bottom: @margin * 2;
+
+    a, div {
+      .column(2, 12);
+      display: inline-block;
+      line-height: @margin * 2;
+      height: @margin * 2 - @border;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 300;
+      text-decoration: none;
+      color: @gray50;
+      text-transform: uppercase;
+      font-family: 'proxima-nova-condensed';
+      border-top: @border solid @gray50;
+
+      &:hover {
+	color: @gray70;
+      }
+
+      &.logo {
+        .column(1, 12);
+        .pull(3);
+        background-color: @gray70;
+        box-shadow: 0 4px 8px rgba(18,7,6,0.3);
+        color: white;
+        text-align: left;
+        border-top: @border solid @gray70;
+        img {
+          position: relative;
+          left: 7px;
+          bottom: -7px;
+        }
+      }
+    }
+  }
+
+  > aside {
+    .column(2);
+    a {
+      margin: 0 10px;
+      display: block;
+    }
+  } 
+
+  aside.download {
+    a {
+      line-height: 32px;
+      font-size: 16px;
+      color: @gray5;
+      text-align: center;
+      background-color: @gray70;
+      font-family: 'proxima-nova-condensed', sans-serif;
+      text-decoration: none;
+      &:hover {
+        background-color: @gray90;
+      }
+    }
+  }
+
+  aside.info {
+    a {
+      font-size: 14px;
+      color: @gray40;
+      text-decoration: none;
+      &:hover {
+        color: @gray70;
+        span {
+          background-color: @gray70;
+        }
+      }
+
+      span {
+	display: inline-block;
+	width: 18px;
+	background-color: @gray30;
+	line-height: 18px;
+	text-align: center;
+	color: white;
+	margin-right: 6px;
+	font-weight: 400;
+        font-family: sans-serif;
+      }
+    }
+  }
+
+  > header {
+    .column(8);
+    .push(2);
+    margin-bottom: @margin;
+  }
+
+  > hr {
+    margin-bottom: @lineHeight / 2;
+  }      
 }

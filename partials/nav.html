@@ -1,9 +1,6 @@
 <nav>
-  <img src="{{path "img/logo.png"}}">
-  <img src="{{path "img/logotype.png"}}">
-  <ul>
-    {{#menu}}
-      <li><a href="{{path url}}">{{title}}</a></li>
-    {{/menu}}
-  </ul>
+    <a class="logo home" href="{{path url}}" title="{{title}}"><img width="23" height="20" src="{{path "img/logo.png"}}"></a>
+    <a class="projects" href="{{path "projects"}}">projects</a>
+    <a class="writing" href="{{path "writing"}}">writing</a>
+    <a class="about" href="{{path "about"}}">about</a>
 </nav>

@@ -1,3 +1,10 @@
-<footer>
+<!--<footer>
   <p>Copyright &copy; 2008-2012 Bram Stein</p>
 </footer>
+-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="{{path "js/jquery.hypher.js"}}"></script>
+<script src="{{path "js/en-us.js"}}"></script>
+<script>
+  $('article p').hyphenate('en-us');
+</script>

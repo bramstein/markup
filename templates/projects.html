@@ -1,11 +1,14 @@
 <!doctype html>
-<html>
-  {{> head}}
+<html class="projects">
+  {{include "head"}}
   <body>
-    {{> nav}}
+    {{include "nav"}}
     <article>
       {{{article}}}
     </article>
-    {{> footer}}
+    <aside class="download">
+      <a href="https://github.com/bramstein/{{dirname}}">Download</a>
+    </aside>
+    {{include "footer"}}
   </body>
 </html>

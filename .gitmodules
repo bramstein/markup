@@ -10,8 +10,8 @@
 [submodule "src/projects/text-align"]
 	path = src/projects/text-align
 	url = git@github.com:bramstein/text-align.git
-[submodule "src/projects/calcdeps"]
-	path = src/projects/calcdeps
+[submodule "src/projects/calcdeps.js"]
+	path = src/projects/calcdeps.js
 	url = git@github.com:bramstein/calcdeps.js.git
 [submodule "src/projects/xsltjson"]
 	path = src/projects/xsltjson

@@ -1,21 +1,3 @@
 {
-  "site-title": "bramstein.com",
-  "menu": [
-    {
-      "title": "home",
-      "url": "."
-    },
-    {
-      "title": "writing",
-      "url": "writing"
-    },
-    {
-      "title": "projects",
-      "url": "projects"
-    },
-    {
-      "title": "about",
-      "url": "about"
-    }
-  ]
+  "site-title": "bramstein.com"
 }
