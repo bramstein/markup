@@ -13,9 +13,16 @@ html.projects nav .projects,
 html.about nav .about,
 html.writing nav .writing {
   border-top: 6px solid @gray70;
+  border-top: 6px solid #C01D2B;
+  color: @gray70;
 }
 
-body {
+html.home nav .home {
+  border-top: 6px solid #C01D2B;
+  background-color: #C01D2B;
+}
+
+.wrapper {
   margin: 0 auto;
   width: @total-width;
 
@@ -23,17 +30,6 @@ body {
     .column(8);
     .push(2);
   }
-
-  > footer {
-    .column(12);
-    background-color: @gray70;
-    nav {
-      .column(8, 12);
-      .push(2);
-      padding: @margin 0;
-    }
-  }
-
 
   article {
     .column(8);
@@ -49,6 +45,12 @@ body {
         margin: 0 auto (@lineHeight / 2) auto;
         display: block;
       }
+    }
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
     }
   }
 
@@ -79,7 +81,7 @@ body {
         .column(1, 12);
         .pull(3);
         background-color: @gray70;
-        box-shadow: 0 4px 8px rgba(18,7,6,0.3);
+        /*box-shadow: 4px 4px 8px rgba(0,0,0,0.2);*/
         color: white;
         text-align: left;
         border-top: @border solid @gray70;
@@ -87,6 +89,11 @@ body {
           position: relative;
           left: 7px;
           bottom: -7px;
+        }
+
+	&:hover {
+          background-color: #C01D2B;
+          border-top: @border solid #C01D2B;
         }
       }
     }
@@ -150,4 +157,22 @@ body {
   > hr {
     margin-bottom: @lineHeight / 2;
   }      
+}
+
+footer {
+  width: 100%;
+  background-color: @gray70;
+  overflow: auto;
+
+  .wrapper {
+    margin: 0 auto;
+    width: @total-width;
+    nav {
+      .column(8);
+      .push(2);
+      p {
+        line-height: @margin * 2;
+      }
+    }
+  }
 }

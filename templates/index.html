@@ -2,14 +2,15 @@
 <html class="home">
   {{include "head" title=""}}
   <body>
-    {{include "nav"}}
-    <header>
-      <h1 class="main">BRAM LAURENS STEIN</h1>
-      <p>I'm a programmer and web developer from the Netherlands. I have a passion for developing usable programs, websites, visualizations–and when I have some spare time–games.</p>
-    </header>
-    <article>
-      {{{article}}}
-    </article>
+    <div class="wrapper">
+      {{include "nav"}}
+      <header>
+        <p>I'm a <em>programmer</em> and <em>web developer</em> from the Netherlands. I have a passion for developing usable programs, websites, visualizations–and when I have some spare time–games.</p>
+      </header>
+      <article>
+        {{{article}}}
+      </article>
+    </div>
     {{include "footer"}}
   </body>
 </html>

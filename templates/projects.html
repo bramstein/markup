@@ -2,13 +2,15 @@
 <html class="projects">
   {{include "head"}}
   <body>
-    {{include "nav"}}
-    <article>
-      {{{article}}}
-    </article>
-    <aside class="download">
-      <a href="https://github.com/bramstein/{{dirname}}">Download</a>
-    </aside>
+    <div class="wrapper">
+      {{include "nav"}}
+      <article>
+        {{{article}}}
+      </article>
+      <aside class="download">
+        <a href="https://github.com/bramstein/{{dirname}}">Download</a>
+      </aside>
+    </div>
     {{include "footer"}}
   </body>
 </html>

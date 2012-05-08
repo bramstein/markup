@@ -2,14 +2,16 @@
 <html class="about">
   {{include "head" title="About"}}
   <body>
-    {{include "nav"}}
-    <article>
-    {{{article}}}
-    </article>
-    <aside class="info">
-      <a href="mailto:bram@bramstein.com"><span>@</span>email</a>
-      <a href="http://twitter.com/bram_stein"><span>T</span>twitter</a>
-    </aside>
+    <div class="wrapper">
+      {{include "nav"}}
+      <article>
+      {{{article}}}
+      </article>
+      <aside class="info">
+        <a href="mailto:bram@bramstein.com"><span>@</span>email</a>
+        <a href="http://twitter.com/bram_stein"><span>T</span>twitter</a>
+      </aside>
+    </div>
     {{include "footer"}}
   </body>
 </html>

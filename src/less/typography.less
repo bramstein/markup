@@ -37,8 +37,8 @@ article {
     font-size: @size;
     line-height: @size * 1.5;
     /*margin-bottom: @lineHeight / 2;*/ 
-    /*font-family: 'proxima-nova-condensed', sans-serif;
-    text-transform: uppercase;*/
+    font-family: 'proxima-nova-condensed', sans-serif;
+    text-transform: uppercase;
   }
 
   h3 {
@@ -51,9 +51,12 @@ article {
     text-decoration: none;
     font-weight: 400;
     color: @gray75;
+    color: #C01D2B;
+    color: #DA2F2F;
 
     &:hover {
       text-decoration: underline;
+      color: #900;
     }
   }
 
@@ -104,6 +107,11 @@ article {
   strong {
     font-weight: 600;
   }
+
+  blockquote {
+    border-left: 6px solid @gray70;
+    padding-left: @lineHeight;
+  }
 }
 
 header {
@@ -118,9 +126,14 @@ header {
   }
 
   p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 34px;
+
+    em {
+      font-weight: 600;
+      color: @gray80;
+    }
 
     a {
       color: @gray80;

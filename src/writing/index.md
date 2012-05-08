@@ -2,7 +2,7 @@
 
 ### [Pattern matching in JavaScript](pattern-matching.html)
 
-A step by step guide for implementing conditional pattern matching as seen in functional programming languages such as ML, Erlang and Haskell. The guide makes heavy use of the [JUnify library](../projects/junify/).
+A step by step guide for implementing conditional pattern matching as seen in functional programming languages such as ML, Erlang and Haskell. The guide makes heavy use of the JUnify library.
 
 ### [Advanced pattern matching in JavaScript](advanced-pattern-matching.html)
 
@@ -10,7 +10,7 @@ A continuation of the pattern matching article. This article introduces a simpli
 
 ### [Extracting values from JavaScript objects](extracting-object-values.html)
 
-A simple tutorial on using the [JUnify unification library](../projects/junify/) to implement a simple object property extractor. The end result allows you to extract properties from objects in a style similar to destructuring assignment in JavaScript 1.7.
+A simple tutorial on using the JUnify unification library to implement a simple object property extractor. The end result allows you to extract properties from objects in a style similar to destructuring assignment in JavaScript 1.7.
 
 ## Book Reviews
 
