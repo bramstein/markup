@@ -21,7 +21,6 @@ Fonzie is a tiny @font-face loader/monitor (only 3.9Kb, and 2.2Kb gzipped) compa
 The jLayout JavaScript library provides layout algorithms for laying out components and containers. The library currently provides three layout algorithms: `border`, which lays out components in five different regions; `grid`, which lays out components in a user defined grid; and `flex-grid` which lays out components in a user defined grid with flexible column and row sizes. A jQuery plugin to lay out (X)HTML elements is also available.
 
 ## jQuery
-
 ###  [jQuery Text Alignment plugin](text-align)
 
 Imagine you have worked hard to make your tables look good, but one thing keeps bugging you; the alignment of the text in the cells. You would, for example, like to align the contents of each cell on the comma character. Unfortunately, no browser supports aligning table cells on characters. This is where the jQuery Text Alignment Plugin comes in; it adds support for aligning text based on characters to all browsers.
@@ -48,7 +47,7 @@ Pattern matching is a form of conditional branching which allows you to concisel
 
 JUnify is a JavaScript library for performing unification on objects and arrays. Unification is an algorithm to determine the substitutions needed to make two expressions match. If the expressions contain variables, these will be bound to values in order for the match to succeed. If two expressions are not identical or the variables can not be bound, the match fails. Unification can, for example, be used to implement pattern matching or an expert system.
 
-###  [Calcdeps.js](calcdeps.js/)
+###  [Calcdeps](calcdeps/)
 
 A Node.js port of Google Closure library `calcdeps.py`. This lets you reduce your dependencies to the Closure Compiler and npm modules.
 
