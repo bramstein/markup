@@ -37,3 +37,15 @@
 [submodule "src/projects/calcdeps"]
 	path = src/projects/calcdeps
 	url = git@github.com:bramstein/calcdeps.git
+[submodule "src/projects/knockout.selection"]
+	path = src/projects/knockout.selection
+	url = git@github.com:bramstein/knockout.selection.git
+[submodule "src/projects/url-template"]
+	path = src/projects/url-template
+	url = git@github.com:bramstein/url-template.git
+[submodule "src/projects/characterset"]
+	path = src/projects/characterset
+	url = git@github.com:bramstein/characterset.git
+[submodule "src/projects/unicode-tokenizer"]
+	path = src/projects/unicode-tokenizer
+	url = git@github.com:bramstein/unicode-tokenizer.git
