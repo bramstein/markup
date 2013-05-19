@@ -18,7 +18,7 @@ The jLayout JavaScript library provides layout algorithms for laying out compone
 
 XSLTJSON is an XSLT 2.0 stylesheet to transform arbitrary XML to JSON. XSLTJSON supports several different JSON output formats, from a compact output format to support for the BadgerFish convention, which allows round-trips between XML and JSON.
 
-###  [Calcdeps.js](calcdeps.js)
+###  [Calcdeps](calcdeps)
 
 A Node.js port of Google Closure library `calcdeps.py`. This lets you reduce your dependencies to the Closure Compiler and npm modules.
 
