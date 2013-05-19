@@ -1,13 +1,17 @@
 <footer>
   <div class="wrapper">
-     <nav>
-       <p>Copyright &copy; 2008-2012 Bram Stein</p>
-     </nav>
+    <div class="left">
+       <h2>Recent updates</h2>
+       <div class="last-updated"></div>
+    </div>
+    <div class="right">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:bram@bramstein.com">bram@bramstein.com</a></p>
+      <p>Twitter: <a href="http://twitter.com/bram_stein">@bramstein</a></p>
+    </div>
   </div>
 </footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="{{path "js/jquery.hypher.js"}}"></script>
 <script src="{{path "js/en-us.js"}}"></script>
-<script>
-  $('article p').hyphenate('en-us');
-</script>
+<script src="{{path "js/site.js"}}"></script>

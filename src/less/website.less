@@ -13,23 +13,26 @@ html.projects nav .projects,
 html.about nav .about,
 html.writing nav .writing {
   border-top: 6px solid @gray70;
-  border-top: 6px solid #C01D2B;
+  border-top: 6px solid #5F8086;
   color: @gray70;
 }
 
-html.home nav .home {
-  border-top: 6px solid #C01D2B;
-  background-color: #C01D2B;
+html.home .wrapper > nav .logo {
+  border-top: 6px solid #99B2B7;
+  background-color: #99B2B7;
+}
+
+html.home article figure {
+  margin-right: -125px;
+  img {
+    margin: 0;
+    border: 1px solid @gray20;
+  }
 }
 
 .wrapper {
   margin: 0 auto;
   width: @total-width;
-
-  > hr {
-    .column(8);
-    .push(2);
-  }
 
   article {
     .column(8);
@@ -72,6 +75,7 @@ html.home nav .home {
       text-transform: uppercase;
       font-family: 'proxima-nova-condensed';
       border-top: @border solid @gray50;
+      border-top: @border solid #D5DED9;
 
       &:hover {
 	color: @gray70;
@@ -92,8 +96,8 @@ html.home nav .home {
         }
 
 	&:hover {
-          background-color: #C01D2B;
-          border-top: @border solid #C01D2B;
+          background-color: #99B2B7;
+          border-top: @border solid #99B2B7;
         }
       }
     }
@@ -162,17 +166,53 @@ html.home nav .home {
 footer {
   width: 100%;
   background-color: @gray70;
+  background-color: #7A6A53;
   overflow: auto;
+  border-top: @border solid #948C75;
+  line-height: 18px;
+  font-size: 14px;
+  /*border-bottom: (@margin * 2) solid #584C3C;*/
 
   .wrapper {
     margin: 0 auto;
     width: @total-width;
-    nav {
-      .column(8);
+
+    h1, h2, h3, h4, h5, h6 {
+      color: @gray20;
+      color: #D9CEB2;
+    }
+
+    p {
+      margin-bottom: 6px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+   }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .left {
+      .column(4);
       .push(2);
-      p {
-        line-height: @margin * 2;
+      padding: (@margin + @lineHeight / 2) 0 @margin 0;
+      a {
+        line-height: 18px;
+        display: block;
+        font-family: 'proxima-nova-condensed';
+        font-size: 16px;
+        text-transform: uppercase;
       }
+    }
+
+    .right {
+      .column(4);
+      padding: (@margin + @lineHeight / 2) 0 @margin 0;
+
     }
   }
 }

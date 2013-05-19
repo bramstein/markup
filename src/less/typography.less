@@ -18,7 +18,7 @@ hr {
   border-bottom: none;
 }
 
-article {
+article, footer {
   p, pre, ul, ol, dl, img {
     margin: 0 0 (@lineHeight / 2);
   }
@@ -26,6 +26,7 @@ article {
   h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizelegibility;
     color: @gray70;
+    clear: both;
   }
 
   h2, h3, h4 {
@@ -47,16 +48,25 @@ article {
     line-height: @size * 1.5;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    a {
+      text-decoration: none;
+    }
+  }
+
   a {
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 400;
     color: @gray75;
     color: #C01D2B;
     color: #DA2F2F;
+    color: #900;
+    color: #5F8086;
+
 
     &:hover {
       text-decoration: underline;
-      color: #900;
+      color: #5F8086;
     }
   }
 
@@ -112,21 +122,16 @@ article {
     border-left: 6px solid @gray70;
     padding-left: @lineHeight;
   }
+
+  .more {
+    text-align: right;
+    padding: @lineHeight / 2 0;
+  }
 }
 
 header {
-  h1.main {
-    font-family: 'proxima-nova-condensed', sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1;
-    color: @gray70;
-    text-transform: uppercase;
-    margin-bottom: @lineHeight / 2;
-  }
-
   p {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 300;
     line-height: 34px;
 
@@ -146,8 +151,6 @@ header {
 footer {
   text-align: left;
   color: @gray20;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300px;
-  font-family: 'proxima-nova-condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }

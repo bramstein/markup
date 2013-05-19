@@ -37,3 +37,6 @@
 [submodule "src/projects/funcy"]
 	path = src/projects/funcy
 	url = git@github.com:bramstein/funcy.git
+[submodule "src/projects/fonzie"]
+	path = src/projects/fonzie
+	url = git@github.com:bramstein/fonzie.git
