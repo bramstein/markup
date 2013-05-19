@@ -39,6 +39,22 @@ JSizes is a small plugin for the jQuery JavaScript library which adds support fo
 
 ## Other
 
+### [knockout.selection](knockout.selection)
+
+A selection binding for Knockout.js that handles multiple selections and keyboard navigation.
+
+### [URL Template](url-template)
+
+This is a simple URI template implementation following the RFC 6570 URI Template specification. The implementation supports all levels defined in the specification and is extensively tested.
+
+### [CharacterSet](characterset)
+
+CharacterSet is a library for creating and manipulating Unicode character sets in JavaScript. Its main purpose is to help in building regular expressions for validation and matching. It fully supports all Unicode characters and correctly handles surrogate pairs in JavaScript strings and regular expressions.
+
+### [Unicode Tokenizer](unicode-tokenizer)
+
+This is a tokenizer that tokenizes text according to the line breaking classes defined by the Unicode Line Breaking algorithm (tr14). It also annotates each token with its line breaking action. This is useful when performing Natural Language Processing or doing manual line breaking.
+
 ###  [Functional Pattern Matching in JavaScript](funcy)
 
 Pattern matching is a form of conditional branching which allows you to concisely match on data structure patterns and bind variables at the same time. Pattern matching is supported in some functional languages such as ML, Haskell, OCaml, and Erlang. This library implements pattern matching for the JavaScript language in an efficient and concise way.
