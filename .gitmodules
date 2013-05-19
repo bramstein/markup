@@ -34,3 +34,6 @@
 [submodule "src/projects/funcy"]
 	path = src/projects/funcy
 	url = git@github.com:bramstein/funcy.git
+[submodule "src/projects/calcdeps"]
+	path = src/projects/calcdeps
+	url = git@github.com:bramstein/calcdeps.git
