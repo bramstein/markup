@@ -12,7 +12,7 @@ update:
 	git submodule foreach git pull origin master
 
 deploy:
-	rsync --verbose --progress -stats --compress --recursive -e ssh -a public/ nfs:/home/public/
+	rsync --verbose --progress --stats --compress --recursive -e ssh -a public/ nfs:/home/public/
 
 clean:
 	rm -rf public
