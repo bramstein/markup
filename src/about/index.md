@@ -7,10 +7,16 @@ Have a look at my Curriculum Vitæ below or [download it as a PDF](cv-bram-stein
 
 ## Professional experience
 
+### Adobe Typekit
+
+Engineer.
+
+*November 2012 - Present*
+
 ### One.com
 Project Manager and lead developer. I am responsible for the day to day management of the web development department in the One.com Copenhagen office, as well as the design and development of several of our web based applications. This includes a web file manager for our cloud storage solution, and a new webmail client. Our web applications are used by one million customers in over 140 countries.
 
-*March 2010 - Present*
+*March 2010 - October 2012*
 
 ### Baseref (owner)
 As a freelancer I've worked on several (mobile) web applications, most notably the Treesaver framework, where I worked together with Filipe Fortes (now at Flipboard,) and famous magazine designer Roger Black. Treesaver is a library for adaptive magazine layouts, and is used in several magazines published on the web and in the Apple App store.
